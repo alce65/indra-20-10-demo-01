@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/todos/0/completed",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/todos/1",
+    "value": {
+      "id": 2,
+      "title": "Review pull requests",
+      "completed": false
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/todos/2"
+  }
+]
