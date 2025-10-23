@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/todos/0/completed",
     "value": true
-  }, 
+  },
   {
     "op": "add",
     "path": "/todos/1",

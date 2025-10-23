@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
- ul {
+ul {
   list-style: none;
   padding: 0;
-  margin: 0;  
+  margin: 0;
 }
- li {
-  margin-bottom: 0.5rem;  
+li {
+  margin-bottom: 0.5rem;
 }
