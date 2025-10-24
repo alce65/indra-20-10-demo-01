@@ -1,0 +1,29 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "Este es un archivo de ejemplo para demostrar cómo crear y gestionar un repositorio en GitHub utilizando Git. Aquí aprenderás los conceptos básicos y comandos esenciales para comenzar a trabajar con Git, GitHub y GitLab.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "echo \"Error: mock linting failure\" && exit 1",
+    "test": "echo \"Error: mock test failure\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alce65/indra-20-10-demo-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alce65/indra-20-10-demo-01/issues"
+  },
+  "homepage": "https://github.com/alce65/indra-20-10-demo-01#readme",
+  "dependencies": {
+    "husky": "^9.1.7"
+  }
+}
