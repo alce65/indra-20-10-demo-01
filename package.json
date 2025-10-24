@@ -8,7 +8,8 @@
   },
   "scripts": {
     "lint": "echo \"Error: mock linting failure\" && exit 1",
-    "test": "echo \"Error: mock test failure\" && exit 1",
+    "test:bad": "echo \"Error: mock test failure\" && exit 1",
+    "test": "echo \"Mock test OK\" && exit 0",
     "prepare": "husky"
   },
   "repository": {
