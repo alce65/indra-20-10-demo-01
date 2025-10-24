@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "lint": "echo \"Error: mock linting failure\" && exit 1",
+    "lint:bad": "echo \"Error: mock linting failure\" && exit 1",
+    "lint": "echo \"Mock linting ok\" && exit 0",
     "test:bad": "echo \"Error: mock test failure\" && exit 1",
     "test": "echo \"Mock test OK\" && exit 0",
     "prepare": "husky"
